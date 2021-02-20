@@ -4,7 +4,7 @@
   ]
 
 [http.routers.api]
-  rule = "Host(`monitor-vipapp.abc-ehr.com`)"
+  rule = "Host(`monitor.example.com`)"
   entrypoints = ["websecure"]
   middlewares = ["simpleAuth"]
   service = "api@internal"
