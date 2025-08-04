@@ -14,6 +14,7 @@ chmod 600 acme.json
 
 With docker-compose
 --------------------------------------------------------
+docker network create web
 docker-compose up -d
 
 With docker run
